@@ -48,3 +48,9 @@ The results demonstrate the trade-offs between **path optimality, computational 
 - Number of waypoints
 - Goal reachability
 - Collision behavior
+
+### Author
+
+Nisha Priya B.Tech CSE (Cyber Security and Cyber Defense), Sri Sri University 
+WRIS-2025 Intern, IIT (ISM) Dhanbad Supervised by Prof. Chiranjeev Kumar (HOD Dept. of Computer Science and Engineering).
+
