@@ -21,3 +21,30 @@ The results demonstrate the trade-offs between **path optimality, computational 
 - **RRT** – Sampling-based approach that incrementally explores the free space through a randomly generated tree.
 - **RRT\*** – An optimized variant of RRT using cost-based parent selection and rewiring for improved path optimality.
 - **RRT\*+APF** – Hybrid approach combining RRT\* exploration with APF guidance for improved convergence and path smoothness.
+
+  ## Technical Setup
+
+- **Language:** Python 3.x
+- **Interpreter:** CPython
+- **IDE:** Spyder (Anaconda Distribution)
+- **Environment:** Conda / Anaconda
+- **Libraries:** NumPy, Matplotlib, Heapq, Random, Time
+
+### Environment
+
+- **Workspace:** 2D grid-based configuration space
+- **Grid sizes:** 20×20, 60×60, 100×100
+- **Obstacle configurations:** Sparse and dense
+- **Movement model (A\*):** 4-connected
+- **Sampling:** Uniform random sampling for RRT-based methods
+- **Collision checking:** Applied during path/tree expansion
+- **Start/Goal:** Consistent across comparative experiments
+
+### Performance Metrics
+
+- Execution time
+- Path length
+- Number of iterations / node expansions
+- Number of waypoints
+- Goal reachability
+- Collision behavior
